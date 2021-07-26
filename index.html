@@ -6,20 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LMS Client App</title>
   </head>
-  
-<h3>A demonstration of how to access a File Upload Button</h3>
-
-<input type="file" id="myFile">
-
-<p>Click the "Try it" button to disable the file upload button.</p>
-
+  <h1 id="text-1" onclick="changeColor('red')" onmouseout="changeColor('blue')" onmouseover="changeColor('blue')" >
+    track mouse movement</h1>
 <button onclick="myFunction()">Try it</button>
 
 <script>
 function myFunction() {
   var x = document.getElementById("myFile");
-  alert(x);
-  x.disabled = true;
+ console.log(x);
+}
+
+function changeColor(color){
+ 
+  document.getElementById('text-1').style.color=color;
 }
 </script>
 </html>
