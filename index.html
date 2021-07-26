@@ -1,24 +1,26 @@
-<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LMS Client App</title>
-  </head>
-  <h1 id="text-1" onclick="changeColor('red')" onmouseout="changeColor('blue')" onmouseover="changeColor('blue')" >
-    track mouse movement</h1>
-<button onclick="myFunction()">Try it</button>
+ 
+    <h1
+      id="text-1"
+      onclick="changeColor('red')"
+      onmouseout="changeColor('blue')"
+      onmouseover="changeColor('blue')"
+    >
+      track mouse movement
+    </h1>
+    <title>LMS App</title>
+
+</html>
 
 <script>
-function myFunction() {
-  var x = document.getElementById("myFile");
- console.log(x);
-}
-
-function changeColor(color){
- 
-  document.getElementById('text-1').style.color=color;
-}
+    function changeColor(color) {
+      document.getElementById("text-1").style.color = color;
+    }
 </script>
-</html>
+
+<style>
+  h1{
+    font-style: italic;
+    font-size: x-large;
+  }
+</style>
