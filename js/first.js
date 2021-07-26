@@ -13,15 +13,16 @@ function displayMessage() {
     "Welcome to Learning Management System (LMS), " + name;
 
   m1();
-  m2();
+  m2(name);
   m3();
 }
 
 function m1() {
+  console.log("hello");
   console.log("inside m1", Date());
 }
 
-function m2() {
+function m2(data) {
   setTimeout(() => {
     console.log("inside m2", Date());
   }, 2000);

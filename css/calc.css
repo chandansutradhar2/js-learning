@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.input {
+  text-align: center;
+  font-size: 20px;
+  margin: 4px;
+}
+
+#answer{
+ text-align: center;
+  font-size: 20px;
+  margin: 4px;
+   
+}
+
+.btn > button {
+  background-color: blueviolet;
+  width: 100px;
+    height: 100px;
+    font-size: 30px;
+    border-radius: 5px;
+}
